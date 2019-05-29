@@ -1,5 +1,6 @@
       body {
-          width: 850vw;
+          width: 250vw;
+          position: relative;
       }
 
     /* main */
@@ -39,94 +40,36 @@
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 20%
+        width: 100%
       }
-
-
 
       .grid{
         position: absolute;
         left: 6em;
         top: 17em;
         display: grid;
+        grid-column-gap: 01em;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-areas:
                     "i1 i2 i3";
-        width: 200em;
       }
-
-       /* color green: #c8efd5  background-color: background-color: #c6dde2;*/
 
       .i1{
         grid-area: i1;
+        width: 300px;
       }
 
       .i2{
         grid-area: i2;
+        width: 300px;
       }
 
       .i3{
         grid-area: i3;
-      }
-
-      .i4{
-        grid-area: i4;
-      }
-
-      .i5{
-        grid-area: i5;
-      }
-
-      .i6{
-        grid-area: i6;
-      }
-
-      .i7{
-        grid-area: i7;
-      }
-
-      .i8{
-        grid-area: i8;
-      }
-
-      .i9{
-        grid-area: i9;
-      }
-
-      .i10{
-        grid-area: i10;
+        width: 300px;
       }
 
 /* pijl */
-    .lijn1{
-      width: 0.2em;
-      height: 0.7em;
-      border-radius: 0.2em;
-      background-color: black;
-      transform: rotate(45deg);
-      position: absolute;
-      top: 0.4em;
-    }
-
-    .lijn2{
-      width: 0.2em;
-      height: 1em;
-      border-radius: 0.2em;
-      background-color: black;
-      transform: rotate(90deg);
-      position: absolute;
-      top: 0.07em;
-      right: 0.2em;
-    }
-
-    .lijn3{
-      width: 0.2em;
-      height: 0.7em;
-      border-radius: 0.2em;
-      background-color: black;
-      transform: rotate(-45deg);
-    }
-
     .pijl{
       position: fixed;
       bottom: 5em;
@@ -194,7 +137,7 @@
       }
 
       body {
-          width: 400vw;
+          width: 150vw;
       }
 
       .vak{
@@ -206,6 +149,10 @@
         position: fixed;
         bottom: 1em;
         left: 10em;
+      }
+
+      .grid img{
+        width: 95%;
       }
 
 
@@ -226,7 +173,7 @@
           }
 
           body {
-              width: 400vw;
+              width: 150vw;
           }
 
       }
@@ -249,7 +196,7 @@
           }
 
           body {
-              width: 300vw;
+              width: 100vw;
           }
 
       }
@@ -272,7 +219,11 @@
           }
 
           body {
-              width: 270vw;
+              width: 100vw;
+          }
+
+          .pijl{
+            visibility: hidden;
           }
 
       }

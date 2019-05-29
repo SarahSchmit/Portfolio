@@ -1,6 +1,8 @@
     /* main */
       body{
-        width: 50vh;
+        position: relative;
+        overflow-y: hidden;
+        overflow-x: hidden;
       }
 
       .titel h1{
@@ -28,12 +30,13 @@
         top: 20em;
         width: 400px;
         height: 400px;
+        z-index: 1;
       }
 
     /* illustratie */
       .illus img{
         position: absolute;
-        left: 11em;
+        left: 15em;
         top: 10em;
         width: 60%;
         z-index: -1;
@@ -44,9 +47,9 @@
         height: 70em;
         background: linear-gradient(80deg, #a0d3de 20%, rgb(246, 248, 249) 100%);
         position: fixed;
-        bottom: -40em;
-        right: -11em;
-        z-index: -2;
+        top: 20em;
+        left: 1em;
+        z-index: -3;
         border-radius: 200px;
         transform: rotate(-60deg);
       }
@@ -79,13 +82,9 @@
         top: 21em;
       }
 
-      body{
-        width: 150vh;
-      }
-
       .illus img{
         position: absolute;
-        left: 50em;
+        left: 45em;
         top: 13em;
         width: 37%;
       }
@@ -96,6 +95,11 @@
           .titel h2{
             position: absolute;
             top: 18em;
+          }
+
+          .illus img{
+            position: absolute;
+            left: 50em;
           }
 
 

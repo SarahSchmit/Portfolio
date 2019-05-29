@@ -2,8 +2,9 @@
     body {
     	font-family: 'Nunito', sans-serif;
     	font-size: 2rem;
-      background-color: #f6f8f9;
+      background-color: #eaf0f3;
       height: 100vh;
+      overflow-y: hidden;
     }
 
     main{
@@ -37,7 +38,7 @@
       float: left;
       height: 10vh;
       width: 90vw;
-      z-index: 2;
+      z-index: 4;
       position: relative;
     }
 

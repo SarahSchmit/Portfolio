@@ -1,4 +1,9 @@
     /* main */
+    body{
+      overflow-y: hidden;
+      overflow-x: hidden;
+      position: relative;
+    }
 
       .titel h1{
         font-size: 4em;
@@ -42,6 +47,12 @@
         transform: rotate(-20deg);
       }
 
+      .pijl{
+        position: absolute;
+        top: 21.3em;
+        left: 23.2em;
+      }
+
     /* media queri */
     @media (min-width: 840px){
         .titel h2{
@@ -51,6 +62,12 @@
 
         .vak{
           left: 10em;
+        }
+
+        .pijl{
+          position: absolute;
+          top: 18.3em;
+          left: 23.2em;
         }
     }
 
@@ -79,12 +96,24 @@
             top: 18em;
           }
 
+          .pijl{
+            position: absolute;
+            top: 27.3em;
+            left: 33.7em;
+          }
+
       }
 
       @media (min-width: 1230px){
           .titel h2{
             position: absolute;
             top: 15em;
+          }
+
+          .pijl{
+            position: absolute;
+            top: 22.7em;
+            left: 33.7em;
           }
 
       }

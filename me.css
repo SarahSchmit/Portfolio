@@ -1,6 +1,7 @@
     /* main */
       body{
         width: 100vh;
+        position: relative;
       }
 
       .titel h1{
@@ -49,7 +50,7 @@
 
     /*  foto */
     .me img{
-      width: 80%;
+      width: 45%;
       position: absolute;
       left: 2em;
       top: 17em;
@@ -210,7 +211,7 @@
             position: absolute;
             left: 15em;
             top: 20em;
-            width: 25%
+            width: 50%
           }
 
       }
