@@ -1,0 +1,110 @@
+    /* main */
+      body{
+        width: 50vh;
+      }
+
+      .titel h1{
+        font-size: 4em;
+        color: #01144e;
+        position: absolute;
+        left: 1.2em;
+        top: 3em;
+        z-index: -1;
+      }
+
+      .titel h2{
+        font-size: 1.5em;
+        color: #454450;
+        position: absolute;
+        left: 3.5em;
+        top: 14em;
+        z-index: -1;
+      }
+
+      /* form */
+      iframe {
+        position: absolute;
+        left: 2.5em;
+        top: 20em;
+        width: 400px;
+        height: 400px;
+      }
+
+    /* illustratie */
+      .illus img{
+        position: absolute;
+        left: 11em;
+        top: 10em;
+        width: 60%;
+        z-index: -1;
+      }
+    /* vak */
+      .vak{
+        width: 200vh;
+        height: 70em;
+        background: linear-gradient(80deg, #a0d3de 20%, rgb(246, 248, 249) 100%);
+        position: fixed;
+        bottom: -40em;
+        right: -11em;
+        z-index: -2;
+        border-radius: 200px;
+        transform: rotate(-60deg);
+      }
+
+
+    /* media queri */
+    @media (min-width: 840px){
+        .titel h2{
+          position: absolute;
+          top: 12em;
+        }
+    }
+
+    @media (min-width: 1024px){
+      .titel h1{
+        position: absolute;
+        left: 3em;
+      }
+
+      .titel h2{
+        position: absolute;
+        left: 10.6em;
+      }
+
+      iframe {
+        width: 800px;
+        height: 450px;
+        position: absolute;
+        left: 12em;
+        top: 21em;
+      }
+
+      body{
+        width: 150vh;
+      }
+
+      .illus img{
+        position: absolute;
+        left: 50em;
+        top: 13em;
+        width: 37%;
+      }
+
+    }
+
+      @media (min-width: 1025px){
+          .titel h2{
+            position: absolute;
+            top: 18em;
+          }
+
+
+      }
+
+      @media (min-width: 1230px){
+          .titel h2{
+            position: absolute;
+            top: 15em;
+          }
+
+      }

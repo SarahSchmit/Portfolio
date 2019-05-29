@@ -1,0 +1,216 @@
+    /* main */
+      body{
+        width: 100vh;
+      }
+
+      .titel h1{
+        font-size: 4em;
+        color: #01144e;
+        position: fixed;
+        left: 1.2em;
+        top: 3em;
+        z-index: -1;
+      }
+
+      .titel h2{
+        font-size: 1.5em;
+        color: #454450;
+        position: absolute;
+        left: 3.5em;
+        top: 14em;
+        z-index: -1;
+      }
+
+    /* vak */
+    .vak{
+      width: 200vh;
+      height: 70em;
+      background: linear-gradient(210deg, #a0d3de 30%, rgb(246, 248, 249) 100%);
+      position: fixed;
+      bottom: -55em;
+      right: -30em;
+      z-index: -2;
+      border-radius: 200px;
+      transform: rotate(55deg);
+    }
+
+    .vak2{
+      width: 200vh;
+      height: 70em;
+      background: linear-gradient(210deg, #a0d3de 30%, rgb(246, 248, 249) 100%);
+      position: fixed;
+      bottom: -45em;
+      left: -2em;
+      z-index: -2;
+      border-radius: 200px;
+      transform: rotate(-70deg);
+      opacity: 0.7;
+    }
+
+    /*  foto */
+    .me img{
+      width: 80%;
+      position: absolute;
+      left: 2em;
+      top: 17em;
+    }
+
+    /* pijl */
+        .lijn1{
+          width: 0.2em;
+          height: 0.7em;
+          border-radius: 0.2em;
+          background-color: black;
+          transform: rotate(45deg);
+          position: absolute;
+          top: 0.4em;
+        }
+
+        .lijn2{
+          width: 0.2em;
+          height: 1em;
+          border-radius: 0.2em;
+          background-color: black;
+          transform: rotate(90deg);
+          position: absolute;
+          top: 0.07em;
+          right: 0.2em;
+        }
+
+        .lijn3{
+          width: 0.2em;
+          height: 0.7em;
+          border-radius: 0.2em;
+          background-color: black;
+          transform: rotate(-45deg);
+        }
+
+        .pijl{
+          position: fixed;
+          bottom: 2em;
+          left: 20em;
+        }
+
+     /* tekst */
+     .aboutme{
+       position: absolute;
+       top: 20em;
+       left: 23em;
+       width: 20em;
+     }
+
+     .aboutme p{
+       margin-bottom: 1em;
+       color: #454450;
+       line-height: 1.2em;
+     }
+
+     .aboutme a{
+       color: #19768e;
+     }
+
+     .aboutme a:hover{
+         color: #19768e;
+     }
+
+
+    /* media queri */
+    @media (min-width: 700px){
+        .titel h2{
+          position: absolute;
+          top: 12em;
+        }
+
+        .me img{
+          width: 40%;
+        }
+    }
+
+    @media (min-width: 1024px){
+      .titel h1{
+        position: absolute;
+        left: 3em;
+      }
+
+      .titel h2{
+        position: absolute;
+        left: 10.6em;
+      }
+
+      .vak{
+        width: 200vh;
+        height: 70em;
+        position: fixed;
+        bottom: -60em;
+        right: 10em;
+        transform: rotate(55deg);
+      }
+
+      .vak2{
+        width: 200vh;
+        height: 70em;
+        position: fixed;
+        bottom: -45em;
+        left: 20em;
+        transform: rotate(-70deg);
+      }
+
+      .me img{
+        position: absolute;
+        left: 13em;
+        top: 19em;
+        width: 40%;
+
+      }
+
+      .aboutme{
+        position: absolute;
+        left: 40em;
+      }
+
+      .pijl{
+        visibility: hidden;
+      }
+
+    }
+
+      @media (min-width: 1170px){
+          .titel h2{
+            position: absolute;
+            top: 18em;
+          }
+
+          .aboutme{
+            position: absolute;
+            left: 32em;
+            top: 22em;
+          }
+
+          .me img{
+            position: absolute;
+            left: 13em;
+            top: 20em;
+            width: 30%
+          }
+
+      }
+
+      @media (min-width: 1230px){
+          .titel h2{
+            position: absolute;
+            top: 15em;
+          }
+
+          .aboutme{
+            position: absolute;
+            left: 45em;
+          }
+
+          .me img{
+            position: absolute;
+            left: 15em;
+            top: 20em;
+            width: 25%
+          }
+
+      }

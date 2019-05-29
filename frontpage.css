@@ -1,0 +1,90 @@
+    /* main */
+
+      .titel h1{
+        font-size: 4em;
+        color: #01144e;
+        position: absolute;
+        left: 1.2em;
+        top: 3em;
+        z-index: -1;
+      }
+
+      .titel h2{
+        font-size: 1.5em;
+        color: #454450;
+        position: absolute;
+        left: 3.5em;
+        top: 14em;
+        z-index: -1;
+      }
+
+      .titel a:hover{
+        color: #19768e;
+      }
+
+      .illu{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        z-index: -2;
+        width: 36em;
+      }
+
+      .vak{
+        width: 150vh;
+        height: 70em;
+        background: linear-gradient(15deg, #a0d3de 60%, rgb(246, 248, 249) 100%);
+        position: fixed;
+        bottom: -26em;
+        left: 5em;
+        z-index: -3;
+        border-radius: 200px;
+        transform: rotate(-20deg);
+      }
+
+    /* media queri */
+    @media (min-width: 840px){
+        .titel h2{
+          position: absolute;
+          top: 12em;
+        }
+
+        .vak{
+          left: 10em;
+        }
+    }
+
+    @media (min-width: 1024px){
+      .titel h1{
+        position: absolute;
+        left: 3em;
+      }
+
+      .titel h2{
+        position: absolute;
+        left: 10.6em;
+      }
+      .vak{
+        width: 150vh;
+        height: 70em;
+        position: fixed;
+        bottom: -26em;
+        left: 40em;
+      }
+    }
+
+      @media (min-width: 1025px){
+          .titel h2{
+            position: absolute;
+            top: 18em;
+          }
+
+      }
+
+      @media (min-width: 1230px){
+          .titel h2{
+            position: absolute;
+            top: 15em;
+          }
+
+      }
