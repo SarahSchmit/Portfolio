@@ -5,6 +5,10 @@
         overflow-x: hidden;
       }
 
+      main{
+        position: relative;
+      }
+
       .titel h1{
         font-size: 4em;
         color: #01144e;
@@ -111,4 +115,11 @@
             top: 15em;
           }
 
+      }
+
+      @media (min-width: 1240px){
+        body{
+          height: 90em;
+
+        }
       }
